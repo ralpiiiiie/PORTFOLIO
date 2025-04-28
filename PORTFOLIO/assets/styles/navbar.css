@@ -1,0 +1,91 @@
+#header {
+    background: rgb(26, 16, 3);
+    width: 100%;
+}
+ul li {
+    color: rgb(228, 213, 194);
+    font-size: 17px;  
+}
+ .logo {
+    display: flex;
+    align-items: center;
+ }
+ 
+ .logo-image {
+     height: auto;
+     width: 100px;  
+ }
+ .logo span {
+    color: rgb(228, 213, 194);
+    font-size: 17px;
+ } 
+ .top-row {
+    display: flex;
+    align-items: center;
+}
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+}
+.menu-btn {
+    color: rgb(228, 213, 194);
+    font-size: 24px;
+    display: none;
+    align-self: center;
+    cursor: pointer;
+    padding-right: 12px;
+}
+.menu-toggle {
+    display: none;
+}
+
+.nav-links {
+    display: flex;
+    list-style: none;
+    padding-right: 20px;
+}
+.nav-links a {
+    text-decoration: none;
+    color: rgb(228, 213, 194);
+}
+
+
+.nav-links, li {
+    display: flex;
+    justify-content: space-evenly;
+    gap: 38px;
+    align-items: center;
+}
+
+
+@media only screen and (max-width: 768px) {
+    .menu-btn {
+        display: block;
+    }
+
+    .nav-links {
+        width: 100%;
+        display: none;
+        flex-direction: column;
+        align-items: center; 
+        gap: 20px; 
+        position: absolute; 
+        top: 100%; 
+        left: 0;
+        background: rgb(26, 16, 3); 
+        padding: 20px 0; 
+         z-index: 10; /*para maka sure magpabilin sa taas */
+   
+    }
+    .menu-toggle:checked ~ .nav-links {
+        display: flex;
+      
+    }
+
+    .navbar {
+        position: relative; 
+        justify-content: space-between; 
+        align-items: center; 
+    }
+}
