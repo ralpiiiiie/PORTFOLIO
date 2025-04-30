@@ -1,0 +1,31 @@
+
+@import "button.css";
+
+@import "navbar.css";
+@import "hero-banner.css";
+@import "features.css";
+@import "promo.css";
+@import "about.css";
+ 
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+html, body {
+    padding: 0;
+    margin: 0;
+    width: 100%;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.container {
+    width: 100%;
+    margin: 0 auto;
+}
+.heading {
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    font-weight: bold;
+}
+

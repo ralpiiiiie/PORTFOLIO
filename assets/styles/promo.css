@@ -1,0 +1,31 @@
+.promos {
+    display: flex;
+    width: 100%;
+}
+ .morning-section, .promo {
+    flex: 1;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+ }
+
+ .morning-section {
+    background-image: url(../images/morningbg.png);
+    background-position: center;
+    background-size: cover;
+    align-items: flex-start;
+ }
+
+ .promo {
+    background-color: #ffffff;
+ }
+
+ .promo-content {
+    padding: 100px;
+    text-align: center;
+}
+
+
+
+

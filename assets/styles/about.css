@@ -1,0 +1,36 @@
+#about-section{
+    display: flex;
+    background-color: antiquewhite;
+    gap: 10px;
+
+}
+.about{
+    width: 700px;
+    word-wrap:break-word ;
+    text-align: center;
+    font-family: serif;
+    
+
+}
+.about p {
+    font-size: 23px; 
+    line-height: 1.5;
+    text-indent: 12px;
+    text-align: center;
+}
+.about h2{
+    padding-top: 30px;
+    padding-bottom: 20px;
+}
+
+.about-text{
+    font-family: serif;
+    font-weight: bold;
+}
+.exterior{
+    width: 700px;
+    height: 600px;
+    border-bottom-left-radius: 35%;
+    border-top-left-radius: 35% ;
+    border-top-right-radius: 30%;   
+}
